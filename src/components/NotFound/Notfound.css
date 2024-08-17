@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.responsive-image {
+    max-width: 60%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7), 0 0 40px rgba(0, 0, 0, 0.5);
+   
+    
+}
+.imagencontenedor{
+    display: flex;
+    justify-content: center;
+    
+   
+   
+}

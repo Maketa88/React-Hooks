@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.BotonPrincipal{
+    display: flex;
+    justify-content: center;
+
+}
+.OrdenarBoton{
+    display: flex;
+  flex-direction: column;
+ 
+  padding: 16px;
+
+
+}
+.BotonPrinci{
+    width: 60vh;
+    height: 4vw;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    font-size: 17px;
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .BotonPrincipal{
+        display: flex;
+        justify-content: center;
+    
+    }
+    .OrdenarBoton{
+        display: flex;
+      flex-direction: column;
+     
+      padding: 16px;
+    
+    
+    }
+    .BotonPrinci{
+        width: 60vh;
+        height: 4vw;
+        text-align: center;
+        font-family: "Nunito", sans-serif;
+        font-size: 17px;
+        
+    }
+    .BotonPrinci:hover {
+        background-color: #1C1C1C;
+        color: white;
+        font-weight: bold;
+        font-family: "Nunito", sans-serif;
+        cursor: pointer;
+      }
+      h1{
+        text-align: center;
+        padding: 10px;
+        font-family: "Nunito", sans-serif;
+        font-size: 22px;
+      }
+}
+.BotonPrinci:hover {
+    background-color: #00BFFF;
+    
+    color: white;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+    cursor: pointer;
+    border: none;
+  }
+  h1{
+    text-align: center;
+    padding: 10px;
+    font-family: "Nunito", sans-serif;
+    font-size: 22px;
+  }

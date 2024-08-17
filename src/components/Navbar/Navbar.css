@@ -1,0 +1,28 @@
+.Lista{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+   font-size: 18px;
+   
+   padding: 10px;
+   flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+    color:#FCFCFC;
+    font-weight: bold;
+
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: weight;
+
+}
+a:hover{
+    text-decoration: underline;
+}
+nav{
+   
+    background-color:#1C1C1C;
+    
+}

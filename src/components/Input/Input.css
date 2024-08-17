@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+input {
+    width: 60vh;
+    height: 4vw;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    font-size: 17px;
+  }
+  .Listado{
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+   
+  }
+ 
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .Imagen {
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    height: 92vh; /* Altura del contenedor: 92% de la altura de la ventana */
+    width: 100vw; /* Anchura del contenedor: 100% de la anchura de la ventana */
+  }
+  
+  .Logo {
+    width: 50vw; /* Ajusta el ancho de la imagen al 50% del ancho de la ventana */
+    
+    max-width: 280px; /* Limita el ancho máximo de la imagen */
+    animation: spin 20s linear infinite; /* Animación de rotación */
+  }
+  
